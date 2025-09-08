@@ -11,6 +11,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/MyFirstProgram",
             "console": "externalTerminal",
+            "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
         {
@@ -22,6 +23,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/DataTypesApp",
             "console": "externalTerminal",
+            "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
         {
