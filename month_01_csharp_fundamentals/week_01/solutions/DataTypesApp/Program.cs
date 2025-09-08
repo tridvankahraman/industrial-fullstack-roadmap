@@ -6,7 +6,7 @@
 * Version	    : v1.0.0
 * Date		    : 2025-09-08
 * Copyright	    : (c) 2025 Ridvan Kahraman
-*******************************************************************************/
+**************************************************************************P*****/
 
 using System;
 using DataTypesApp.Versions;
@@ -27,9 +27,6 @@ namespace DataTypesApp
             V2_Variables.Run();
             Console.WriteLine();
             V3_DataTypes.Run();
-
-            // Wait for user input before closing
-            Console.ReadKey();
         }
     }
 }

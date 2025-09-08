@@ -28,8 +28,6 @@ namespace MyFirstProgram
 
             V1_Basics.Run(); // Basic "Hello World" example
             V2_UserInput.Run(); // User input example
-
-            Console.ReadKey(); // Wait for a key press before closing
         }
     }
 }
