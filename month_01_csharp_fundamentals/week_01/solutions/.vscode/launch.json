@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Run MyFirstProgram",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/MyFirstProgram/bin/Debug/net9.0/MyFirstProgram.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/MyFirstProgram",
+            "console": "externalTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Run DataTypesApp",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/DataTypesApp/bin/Debug/net9.0/DataTypesApp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DataTypesApp",
+            "console": "externalTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
